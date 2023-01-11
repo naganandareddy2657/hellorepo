@@ -1,13 +1,16 @@
 package com.mycompany.app;
 
-/**
- * Hello world!
- *
- */
+
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        int num=20;
+        if(num>0)
+            System.out.println("Positive Number");
+        else if(num<0)
+            System.out.println("negative Number");
+        else
+            System.out.println("Zero");
     }
 }
